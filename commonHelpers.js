@@ -6,5 +6,5 @@
       alt='${o.description}'
     />
   </a>
-</li>`).join("");s.insertAdjacentHTML("afterbegin",l);new n(".gallery a",{captionsData:"alt"});
+</li>`).join("");s.insertAdjacentHTML("afterbegin",l);new n(".gallery a",{captionsData:"alt",captionDelay:"250"});
 //# sourceMappingURL=commonHelpers.js.map
