@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     
-    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-94e5f5d6.css">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-5d277a1c.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
 
-      <form class="submit-form">
+      <form class="feedback-form" autocomplete="off">
         <label>
           Email
-          <input class="submit-form-input" type="email" name="email" />
+          <input type="email" name="email" autofocus />
         </label>
         <label>
           Message
-          <textarea class="submit-form-input textarea" name="message"></textarea>
+          <textarea name="message" rows="8"></textarea>
         </label>
         <button type="submit">Submit</button>
       </form>
