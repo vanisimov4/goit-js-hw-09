@@ -28,16 +28,16 @@ function handleFormSubmit(event) {
 }
 
 function saveToLS(key, value) {
-  const zip = JSON.stringify(value);
-  localStorage.setItem(key, zip);
+  const serializedData = JSON.stringify(value);
+  localStorage.setItem(key, serializedData);
 }
 
 function loadFromLS(key) {
-  const zip = localStorage.getItem(key);
+  const serializedData = localStorage.getItem(key);
   try {
-    return JSON.parse(zip);
+    return JSON.parse(serializedData);
   } catch {
-    return zip;
+    return serializedData;
   }
 }
 
